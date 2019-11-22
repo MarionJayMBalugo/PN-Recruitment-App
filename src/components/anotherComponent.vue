@@ -7,13 +7,9 @@
 </template>
 
 <script>
-
 import store from "./store"
 export default {
-  name: "App",
-
-  data: () => ({
-  }),
+  name: "another",
   computed: {
     count:()=>{
       return store.state.count;
